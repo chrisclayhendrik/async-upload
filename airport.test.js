@@ -5,13 +5,13 @@ describe("Airport object", () => {
 
   test("airports have a country", (done) => {
     //run getInfo method
-    testAirport2.getInfo((err, info) => {
+    testAirport2.getInfo((err, data) => {
       //log this airport info to console
-      console.log(info);
+      console.log(data);
       //expect error to be null
       expect(err).toBeNull();
       //expect the airport country to be FR
-      expect(info.country).toEqual("FR");
+      expect(data.country).toEqual("FR");
       //end asynchrounous test
       done();
     });

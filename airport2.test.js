@@ -4,8 +4,8 @@ describe("Airport class", () => {
   test("airports have a city", () => {
     const CDG = new Airport("CDG");
     return CDG.getInfo()
-      .then((info) => {
-        expect(info.city).toEqual("Paris");
+      .then((data) => {
+        expect(data.city).toEqual("Paris");
       })
       .catch((err) => {
         expect(err).toBeNull();
