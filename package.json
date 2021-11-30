@@ -1,0 +1,25 @@
+{
+  "name": "async-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:report": "jest --coverage=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisclayhendrik/async-upload.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisclayhendrik/async-upload/issues"
+  },
+  "homepage": "https://github.com/chrisclayhendrik/async-upload#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "jest": "^27.4.2"
+  }
+}
